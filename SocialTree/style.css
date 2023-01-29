@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+    font-family: Poppins, sans-serif ;
+    background: var(--body-bg-color);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.avatar{
+    width: 213px;
+    height: 213px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid var(--purple);
+    border-radius: 50%;
+}
+.avatar >img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.instagram_user{
+    margin-top: 15px;
+    color: var(--purple);
+}
+.links_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+}
+.links{
+    width: 326px;
+    height: 49px;
+    margin-top: 16px;
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 0;
+}
+.links:hover{
+    background: var(--purple);
+    color: var(--body-bg-color);
+    transition-duration: 0.35s;
+}
+.social_container{
+    margin-top: 68px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 29px;
+}
+.social{
+    transform:scale(0.9);
+    transition:ease 0.3s;
+}
+.social:hover{
+    transform: scale(1);
+
+}
