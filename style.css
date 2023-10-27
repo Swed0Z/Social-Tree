@@ -75,6 +75,10 @@ html,body{
     transform: scale(1);
 
 }
-.tiktokImg {
+#tiktokImg {
     filter: invert(50%) sepia(86%) saturate(2768%) hue-rotate(239deg) brightness(100%) contrast(91%);
+    width: 27px;
+}
+#discordImg{
+    width: 27px;
 }
